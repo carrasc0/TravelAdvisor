@@ -20,7 +20,7 @@ import com.gabriel.traveladvisor.view.custom.PlaceholderView
 import com.gabriel.traveladvisor.viewmodel.ApiViewModel
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import kotlinx.android.synthetic.main.content_main.recycler
-import kotlinx.android.synthetic.main.train_movements.*
+import kotlinx.android.synthetic.main.train_movements_fragment.*
 
 const val TRAIN_ID = "train_id"
 
@@ -40,7 +40,7 @@ class TrainMovementFragment : BottomSheetDialogFragment(), PlaceholderView.OnRet
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View =
-        inflater.inflate(R.layout.train_movements, container, false)
+        inflater.inflate(R.layout.train_movements_fragment, container, false)
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

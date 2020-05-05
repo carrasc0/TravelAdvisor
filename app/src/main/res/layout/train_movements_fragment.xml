@@ -9,7 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_16dp"
-        android:textSize="@dimen/text_size_16sp" />
+        android:textSize="@dimen/text_size_18sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/train_information"

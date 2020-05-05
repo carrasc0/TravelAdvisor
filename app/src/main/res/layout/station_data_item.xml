@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/CardViewStyle"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="@dimen/margin_8dp">
+    android:layout_margin="@dimen/margin_8dp"
+    app:cardCornerRadius="@dimen/card_corner_radius_8dp"
+    app:cardElevation="@dimen/card_elevation_1dp"
+    app:cardUseCompatPadding="true">
 
     <RelativeLayout
         android:layout_width="match_parent"
