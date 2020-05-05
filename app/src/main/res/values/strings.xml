@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">Travel Advisor</string>
+    <string name="retry">Retry</string>
+
+    <string name="splash_image_content_description">App icon</string>
+    <string name="train_movement_image_content_description">Train icon</string>
+    <string name="collapsing_image_content_description">Train Station Image</string>
+
+    <string name="label_origin">Origin</string>
+    <string name="label_destination">Destination</string>
+    <string name="label_stop_information">Stop Information</string>
+    <string name="switch_destination_content_description">Arrow forward</string>
+    <string name="label_departure">Departure</string>
+
+    <string name="dialog_current_city_tittle">Where are you now?</string>
+
+    <string name="station_view_description_text">%1$s Station (%2$s) ID: %3$d</string>
+    <string name="train_information_label_text">%1$s Train Movements</string>
+    <string name="place_and_hour_text">%1$s at %2$s</string>
+    <string name="service_started_text">Service started at %1$s</string>
+    <string name="last_location_text">Last location: %1$s</string>
+    <string name="origin_text">Origin</string>
+    <string name="stop_text">Stop</string>
+    <string name="non_stopping_text">Non Stopping</string>
+    <string name="destination_text">Destination</string>
+    <string name="station_error_state_text">Unable to fetch Station information</string>
+    <string name="station_data_error_state_text">Unable to fetch Station data</string>
+    <string name="train_movements_error_state_text">Unable to fetch Train movements</string>
+    <string name="station_empty_state_text">No Station information available</string>
+    <string name="station_data_empty_state_text">No data available for this station</string>
+    <string name="train_empty_state_text">No information available for this train</string>
+    <string name="trains_label">Trains that must serve the next 90 minutes</string>
+    <string name="change_destination">Change destination</string>
+
+</resources>
